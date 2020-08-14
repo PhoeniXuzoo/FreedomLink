@@ -120,10 +120,8 @@ cd freedom-generator/
 npm run deploy-api
 ```
 
-## Maintainers 
+## Developers:
 
-<h3>Developers:</h3>
-  
 * John Laboe
 * Rochelle (Chelly) Compendio
 * Zhu Xu
@@ -131,6 +129,11 @@ npm run deploy-api
 * Elizabeth Petersen
 * Stephanie Yaur
 * Kieran Bondy
+
+## Maintainers 
+  
+* John Laboe
+* Rochelle (Chelly) Compendio
 
 <h3>AWS root account owner:</h3> 
 
