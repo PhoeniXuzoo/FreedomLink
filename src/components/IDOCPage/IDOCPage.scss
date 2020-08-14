@@ -1,0 +1,44 @@
+.IDOCPage{
+    @extend .flexCenter;
+    height: 85vh;
+    padding: 30px;
+}
+
+.formContainer{
+    @extend .flexCenter;
+    height: 120%;
+    justify-content: space-between !important;
+}
+.formLike{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.results {
+    margin: 3vw;
+}
+
+.resultContainer {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.inputContainer{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 25px;
+
+    & span{
+        font-size: 25px;
+    }
+}
+
+.infoIcon{
+    color: $blue;
+}
+
+.button {
+    margin: 2%;
+}

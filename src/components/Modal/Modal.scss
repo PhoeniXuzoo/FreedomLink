@@ -1,0 +1,55 @@
+.modal{
+    display: block;
+    background-color: white;
+    padding-bottom: 2%;
+    // width: 550px;
+    width: 80%;
+    position: fixed;
+    top: 15%;
+    margin-left: 8.5%;
+    margin-right: auto;
+
+    border-radius: 15px;
+    border: 1px solid grey;
+    justify-content: flex-start;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 3px 3px grey;
+
+    &__close{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    & p{
+        text-align: left;
+    }
+}
+
+.x{
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+}
+
+.modalDescription{
+    text-align: center;
+}
+
+// for "draft has been successfully exported"
+.confirmationMessage{
+    text-align: center !important;
+    margin: 6px 0 0 0;
+}
+
+.export-button {
+    margin-left: 1em;
+    margin-right: 1em;
+}
